@@ -1,0 +1,60 @@
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: red;
+}
+
+body {
+    font-family: 'Genos', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* grid rules */
+.row {
+    clear: both;
+}
+
+/* keeps footer centered after max-width is reached */
+.limited {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.column {
+    float: left;
+    padding: 0 2vw;
+    margin: 0 0 .75rem 0;
+}
+
+footer {
+    background-color: lightblue;
+    font-size: 1.2rem;
+}
+
+footer h2 {
+    font-size: italic;
+    text-transform: uppercase;
+    margin: 1rem 0 .3rem 0;
+}
+
+/* clearfix prevents footer from collapsing */
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* column width */
+.small-12 {
+    width: 100%;
+}
