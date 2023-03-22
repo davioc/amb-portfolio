@@ -25,18 +25,35 @@
 </head>
 
 <body>
-    <header>
-        <h1>David's Portfolio</h1>
+    <header class="clearfix">
+        <div class="row limited">
+            <section class="column small-12">
+                <img src="images/game-controller.svg" alt="Header logo">
+                <h1>David's Portfolio</h1>
+            </section>
+        </div>
+
     </header>
 
-    <nav>
-        Home | Contact | Projects
+    <nav class="clearfix">
+        <div class="row limited">
+            <button id="menuBtn">&#9776;</button>
+            <ul id="primaryNav">
+                <li class="active"><a href="#">Hello World</a></li>
+                <li><a href="#">Button</a></li>
+                <li><a href="#">Button</a></li>
+                <li><a href="#">Button</a></li>
+            </ul>
+        </div>
     </nav>
 
-    <main>
-        <h1>Hello World</h1>
-        <p> paragraph about content see shells sea shellssee shells sea shellssee shells sea shellssee shells sea shellssee shells sea shellssee shells sea shellssee shells sea shellssee shells sea shellssee shells sea shellssee shells sea shellssee shells sea shellssee shells sea shellssee shells sea shells</p>
-
+    <main class="clearfix">
+        <div class="row limited">
+            <section class="column small-12">
+                <h1>Hello World</h1>
+                <p> paragraph about content see shells sea shellssee shells sea shellssee shells sea shellssee shells sea shellssee shells sea shellssee shells sea shellssee shells sea shellssee shells sea shellssee shells sea shellssee shells sea shellssee shells sea shellssee shells sea shellssee shells sea shells</p>
+            </section>
+        </div><!-- end of row -->
     </main>
 
     <footer class="clearfix">
@@ -65,16 +82,12 @@
             </section>
             <section class="column small-12 medium-6 large-3">
                 <h2>About</h2>
-                <img src="images/logo2.png" alt="logo">
+                <img src="images/game-controller.svg" alt="logo">
                 <p>&copy; 2023 &bull; all rights reserved.</p>
             </section>
         </div><!-- end of the row -->
     </footer>
+    <script src="js/menuToggle.js"></script>
+</body>
 
-
-
-
-
-
-
-</body></html>
+</html>

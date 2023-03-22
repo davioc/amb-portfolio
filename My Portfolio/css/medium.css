@@ -3,6 +3,7 @@
         color: blueviolet;
     }
 
+    /* header rules */
     header h1 {
         font-size: 2.85rem;
     }
@@ -18,5 +19,18 @@
     /* column width */
     .medium-6 {
         width: 50%;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    nav ul {
+        display: block;
+    }
+
+    nav li {
+        width: 25%;
+        float: left;
     }
 }
