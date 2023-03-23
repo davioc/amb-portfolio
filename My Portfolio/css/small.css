@@ -123,6 +123,44 @@ nav ul {
     display: none;
 }
 
+/* main rules */
+main img {
+    width: 100%;
+    height: auto;
+}
+
+main h1 {
+    color: chocolate;
+    font-style: italic;
+    margin: .5rem 0 .1rem 0;
+    font-size: 2rem;
+}
+
+.labeled {
+    position: relative;
+}
+
+.labeled h6,
+.labeled p {
+    position: absolute;
+    background-color: rgba(125, 249, 255, 1);
+    margin: 0;
+    width: 100%;
+    padding: .3rem 1rem;
+}
+
+.labeled h6 {
+    top: 0;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.labeled p {
+    bottom: 0;
+    font-weight: 700;
+    color: chocolate;
+}
+
 /* footer rules */
 footer {
     background-color: lightblue;
