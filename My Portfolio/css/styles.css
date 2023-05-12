@@ -395,7 +395,9 @@ nav ul li {
 nav a {
   display: block;
   padding: .8rem 0;
-  color: #eee;
+  color: chocolate;
+  font-size: 1.5rem;
+  font-style: bold;
   text-align: center;
   text-decoration: none; }
 
